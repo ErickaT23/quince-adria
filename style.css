@@ -1,7 +1,6 @@
 :root {
     --color-1: rgb(183, 102, 129);
-    --font-1: "cinzel-decorative";
-    --font-2: "lato";
+    --font-1: "'Cinzel Decorative'";
     --scroll-animation-duration: 0.5s;
 }
 
@@ -15,7 +14,7 @@ body {
     min-height: 100vh;
     text-align: center;
     background-color: white;
-    font-family: 'Cinzel Decorative', serif, 'Times New Roman';
+    font-family: 'Cinzel Decorative';
 }
 #envelope {
     position: fixed;
@@ -67,9 +66,9 @@ body {
 }
 #seal h2 {
     margin: 0;
-    font-size: 26px;
+    font-size: 20px;
     color: white;
-    font-family: var(--font-3);
+    font-family: var(--font-1);
     font-weight: 400;
     font-style: italic;
 }
@@ -83,7 +82,7 @@ body {
 .sintillo{
     position: relative;
     width: 100%;
-    height: 210px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +112,7 @@ body {
     color: var(--color-1);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
-    font-family: var(--font-3);
+    font-family: var(--font-1);
     font-weight: 400;
     font-style: italic;
     font-size: 45px;
@@ -468,7 +467,7 @@ button {
     background-color: SaddleBrown;
     color: #fff;
     border-radius: 5px;
-    font-family: var(--font-3);
+    font-family: var(--font-1);
     padding: 10px;
     transition: background-color 0.3s;
     border: none;
