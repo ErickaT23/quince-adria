@@ -90,7 +90,7 @@ body {
     align-items: center;
     overflow: hidden;
     margin-top: -50px;
-    margin-bottom: -40px;
+    margin-bottom: -30px;
     z-index: 2;
 }
 .sintillo::before{
@@ -374,7 +374,7 @@ body {
     font-size: var(--font-1);
     color: SaddleBrown;
 }
-.section h2, .section h3, .section-gifts h3, .section-filter h3, .section-playlist h3{
+.section h2, .section-gifts h3, .section-filter h3, .section-playlist h3{
     font-family: var(--font-1);
     padding: 10px;
     font-weight: 400;
