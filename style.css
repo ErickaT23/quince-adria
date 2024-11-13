@@ -90,7 +90,7 @@ body {
     align-items: center;
     overflow: hidden;
     margin-top: -50px;
-    margin-bottom: -30px;
+    margin-bottom: -50px;
     z-index: 2;
 }
 .sintillo::before{
