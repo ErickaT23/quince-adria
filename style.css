@@ -374,7 +374,7 @@ body {
     font-size: var(--font-1);
     color: SaddleBrown;
 }
-.section h2, .section-gifts h3, .section-filter h3, .section-playlist h3{
+.section h2{
     font-family: var(--font-1);
     padding: 10px;
     font-weight: 400;
