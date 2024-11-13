@@ -1,6 +1,6 @@
 :root {
     --color-1: rgb(183, 102, 129);
-    --font-1: "cormorant garamond", italic;
+    --font-1: "cormorant garamond", serif;
     --scroll-animation-duration: 0.5s;
 }
 
