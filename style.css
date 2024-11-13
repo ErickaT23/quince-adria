@@ -1,6 +1,6 @@
 :root {
     --color-1: rgb(183, 102, 129);
-    --font-1: "'Cinzel Decorative'";
+    --font-1: "cormorant garamond", italic;
     --scroll-animation-duration: 0.5s;
 }
 
@@ -14,7 +14,8 @@ body {
     min-height: 100vh;
     text-align: center;
     background-color: white;
-    font-family: 'Cinzel Decorative';
+    font-family: 'cormorant garamond';
+    font-style: italic;
 }
 #envelope {
     position: fixed;
