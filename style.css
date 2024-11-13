@@ -370,7 +370,7 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .section h3{
-    margin-top: 50px;
+    font-size: 50px;
     font-size: var(--font-1);
     color: SaddleBrown;
 }
