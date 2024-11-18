@@ -46,6 +46,9 @@ body {
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     background-image: url(/Imagenes/F1.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.216);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* Sello del sobre */
 #seal {
@@ -358,7 +361,7 @@ body {
     font-size: 28px;
     color: var(--color-1);
 }
-.section-b h1, .section-b h2{
+.section-b h1, .section-b h2, .section-b h3{
     font-family: var(--font-1);
     padding: 15px;
     font-weight: 400;
@@ -369,12 +372,7 @@ body {
     color: SaddleBrown;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-.section h3{
-    font-size: 50px;
-    font-size: var(--font-1);
-    color: SaddleBrown;
-}
-.section h2{
+.section h2, .section-playlist h2, .section-gifts h2, .section h3, .section-filter h2{
     font-family: var(--font-1);
     padding: 10px;
     font-weight: 400;
@@ -585,13 +583,11 @@ footer {
         font-size: 50px;
     }
     .section-quote{
-        height: 500px;
-        margin-top: -90px;
-        margin-bottom: -90px;
+        padding: 10px;
     }
     .section-social-icons i{
         font-size: 55px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .section-logo img{
         margin-top: 0px;
